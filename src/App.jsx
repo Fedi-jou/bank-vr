@@ -24,18 +24,18 @@ function App() {
   const [modalOpen, setModalOpen] = useState(false);
   const [rows, setRows] = useState([
     {
-      page: "Home",
-      description: "This is the main page of the website",
+      page: "ID203",
+      description: "Mention the account issue here ..",
       status: "live",
     },
     {
-      page: "About Us",
-      description: "This page has details about the company",
+      page: "ID204",
+      description: "Mention the account issue here ..",
       status: "draft",
     },
     {
-      page: "Pricing",
-      description: "Prices for different subscriptions",
+      page: "ID205",
+      description: "Mention the account issue here ..",
       status: "error",
     },
   ]);
