@@ -1,0 +1,38 @@
+.wrapper {
+   background-color: #fff; 
+   display: grid;
+   grid-template-columns: 100px 80px;
+   border-radius: 14px;
+   width: 190px;
+   margin: 21px 0;
+}
+
+input,select {
+    color: #333;
+    width: 90px;
+}
+
+input {
+    padding-left: 10px;
+}
+
+select { padding: 10px;}
+
+
+.currency-select {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .currency-option {
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  .currency-select option {
+    font-weight: bold;
+  }
+
+ 

@@ -1,0 +1,71 @@
+  nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .gradient-bg {
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.9);
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  .logo-text {
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:rgba(220, 220, 220, 1);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+
+  #logo:hover {
+    color : linear-gradient(to right, white, darkgrey); 
+  }
+
+   a {
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 10px;
+
+  }
+  
+  a:hover {
+    color: #1DA1F2;
+  }
+  
+  a.active {
+    color: #1C9CEA;
+  }
+
+ 
