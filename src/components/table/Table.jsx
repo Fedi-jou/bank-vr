@@ -8,7 +8,7 @@ export const Table = ({ rows, deleteRow, editRow }) => {
       <table className="table">
         <thead>
           <tr>
-            <th>Page</th>
+            <th>Account</th>
             <th className="expand">Description</th>
             <th>Status</th>
             <th>Actions</th>
